@@ -1,6 +1,6 @@
 # Developer Environment Workflow & Configurations
 
-Summary of my current developer environment setup.
+This is a summary of my current developer environment setup.
 
 - **Alacritty** - Main Terminal
 - **Vim** - Lightweight Text Editor
@@ -9,6 +9,7 @@ Summary of my current developer environment setup.
 - **Visual Studio Code** - Backup IDE
 - **Yabai** - Tiling Window Manager for efficient workspace management
 - **SketchyBar** - Status Bar with customizable widgets and information display
+- **Zsh** - Default Shell for managing terminal sessions with advanced features and customization
 
 ## Alacritty
 
