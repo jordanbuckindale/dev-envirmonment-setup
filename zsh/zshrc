@@ -39,6 +39,9 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 alias ls="eza --icons=always"
 
+# set up fzf key bindings and fuzzy completion
+eval "$(fzf --zsh)"
+
 # ---- Zoxide (better cd) ----
 eval "$(zoxide init zsh)"
 
