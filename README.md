@@ -20,7 +20,6 @@ This file sets up Alacritty, a GPU-accelerated terminal emulator, with various s
 - **Environment Variables**: Sets the terminal type to `"xterm-256color"`, enabling 256-color support for applications running in the terminal.
 
 ### Window and Appearance Settings
-
 - **Window Padding**: 
   - `padding.x`: Adds 10 pixels of padding on the horizontal axis.
   - `padding.y`: Adds 11 pixels of padding on the vertical axis.
@@ -46,5 +45,60 @@ This file sets up Alacritty, a GPU-accelerated terminal emulator, with various s
 ## Visual Studio Code
 
 ## Yabai
+This file configures Yabai, a tiling window manager for macOS, with custom keyboard shortcuts to improve window management and productivity.
+
+### Window Focus Management
+- **Change Window Focus within the Same Space**:
+  - `alt + j`: Focuses the window to the south.
+  - `alt + k`: Focuses the window to the north.
+  - `alt + h`: Focuses the window to the west.
+  - `alt + l`: Focuses the window to the east.
+
+### Display Focus Management
+- **Change Focus between External Displays**:
+  - `alt + s`: Focuses the display to the west.
+  - `alt + g`: Focuses the display to the east.
+
+### Space Layout Adjustments
+- **Rotate Layout Clockwise**:
+  - `shift + alt + r`: Rotates the current space layout 270 degrees.
+- **Flip Layout Along Y-Axis**:
+  - `shift + alt + y`: Mirrors the layout along the y-axis.
+- **Flip Layout Along X-Axis**:
+  - `shift + alt + x`: Mirrors the layout along the x-axis.
+
+### Window Management
+- **Toggle Window Float**:
+  - `shift + alt + t`: Toggles the floating state of the window, positioning it on a 4x4 grid.
+- **Maximize Window**:
+  - `shift + alt + m`: Toggles the window to fullscreen mode.
+- **Balance Window Tree**:
+  - `shift + alt + e`: Balances the tree of windows, resizing them to occupy equal areas.
+
+### Window Swapping
+- **Swap Windows**:
+  - `shift + alt + j`: Swaps the window with the one to the south.
+  - `shift + alt + k`: Swaps the window with the one to the north.
+  - `shift + alt + h`: Swaps the window with the one to the west.
+  - `shift + alt + l`: Swaps the window with the one to the east.
+
+### Window Movement and Splitting
+- **Move Window and Split**:
+  - `ctrl + alt + j`: Moves the window to the south and splits it.
+  - `ctrl + alt + k`: Moves the window to the north and splits it.
+  - `ctrl + alt + h`: Moves the window to the west and splits it.
+  - `ctrl + alt + l`: Moves the window to the east and splits it.
+
+### Display Management
+- **Move Window to Another Display**:
+  - `shift + alt + s`: Moves the window to the display on the left and focuses on it.
+  - `shift + alt + g`: Moves the window to the display on the right and focuses on it.
+
+### Yabai Service Management
+- **Stop, Start, and Restart Yabai**:
+  - `ctrl + alt + q`: Stops the Yabai service.
+  - `ctrl + alt + s`: Starts the Yabai service.
+  - `ctrl + alt + r`: Restarts the Yabai service.
+
 
 ## Sketchybar
