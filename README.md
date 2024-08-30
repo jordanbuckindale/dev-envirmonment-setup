@@ -100,5 +100,31 @@ This file configures Yabai, a tiling window manager for macOS, with custom keybo
   - `ctrl + alt + s`: Starts the Yabai service.
   - `ctrl + alt + r`: Restarts the Yabai service.
 
+## Zsh
+Customizes the Zsh shell with enhanced usability and productivity settings.
+
+### Powerlevel10k Prompt
+- **Instant Prompt**: Speeds up startup by preloading the prompt.
+- **Theme**: Loads the Powerlevel10k theme.
+
+### General Settings
+- **Aliases**: 
+  - `reload-zsh`: Reload Zsh.
+  - `edit-zsh`: Edit Zsh config in Neovim.
+- **History**: Saves 1,000 commands, shares across sessions, avoids duplicates.
+- **Key Bindings**: Arrow keys search through command history.
+
+### Plugins
+- **Autosuggestions**: Recommends commands.
+- **Syntax Highlighting**: Colors commands and syntax.
+
+### Custom Aliases
+- **`ls` Replacement**: Uses `eza` for icons in directory listings.
+
+### Fuzzy Finder
+- **fzf Integration**: Enables fuzzy search.
+
+### Zoxide Setup
+- **Enhanced Navigation**: `z` replaces `cd` for smarter directory jumps.
 
 ## Sketchybar
