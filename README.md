@@ -37,6 +37,41 @@ This file sets up Alacritty, a GPU-accelerated terminal emulator, with various s
   - `size`: Sets the font size to `15` for improved readability.
 
 ## Vim
+This configuration file customizes Vim settings to enhance the editing experience.
+
+### General Settings
+- **Compatibility Mode**: Disable compatibility with Vi (`nocompatible`).
+- **Backspace Behavior**: Allows backspacing over indentations, end-of-line, and insert start (`backspace=indent,eol,start`).
+- **Ruler**: Enables the ruler, showing the cursor position.
+- **History Limit**: Keeps a history of 500 commands (`history=500`).
+- **Ignore Modeline**: Prevents Vim from reading mode lines in files (`nomodeline`).
+- **Syntax Highlighting**: Enabled by default (`syn on`).
+
+### Text and Indent Settings
+- **Line Numbers**: Displays line numbers (`number`).
+- **Disable Wrap**: Disables text wrapping (`nowrap`).
+- **Cursor Line**: Disables cursor line highlighting (`nocursorline`).
+- **Mouse Support**: Enables mouse support (`mouse=a`).
+- **Match Parentheses**: Shows matching parentheses (`showmatch`).
+- **Auto Indentation**: Enables automatic indentation (`autoindent`).
+- **Indent Width**: Sets indent width to 4 characters (`shiftwidth=4`).
+- **Tab Settings**: 
+  - Sets tab width to 4 characters (`tabstop=4`).
+  - Converts tab characters to spaces (`expandtab`).
+
+### Custom Key Mappings
+- **Normal Mode Mappings**:
+  - `F2`: Save file (`:w`).
+  - `F3`: Save and quit file (`:wq`).
+  - `F4`: Clear file contents (`ggdG`).
+  - `F5`: Copy entire file contents to clipboard (`:%y+`).
+- **Insert Mode Mappings**:
+  - `F2`: Save file (`<C-o>:w`).
+- **Navigation Shortcuts**:
+  - `Ctrl+f`: Move to the end of the word.
+  - `Ctrl+b`: Move to the beginning of the word.
+  - `Ctrl+a`: Move to the end of the line.
+  - `Ctrl+s`: Move to the beginning of the line.
 
 ## NeoVim
 
