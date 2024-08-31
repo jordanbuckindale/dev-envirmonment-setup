@@ -41,6 +41,48 @@ This file sets up Alacritty, a GPU-accelerated terminal emulator, with various s
 ## NeoVim
 
 ## Tmux
+Customizes Tmux settings for an enhanced terminal experience.
+
+### General Settings
+- **True Color Support**: Enables 256-color mode.
+- **Custom Prefix**: Changes the prefix key to `Ctrl-A` for Tmux commands.
+- **Mouse Support**: Enables mouse usage within Tmux.
+- **Vim Key Bindings**: Uses Vim-style key bindings for navigation and text selection.
+
+### Pane Management
+- **Resize Panes**: 
+  - `h/j/k/l`: Resize panes left, down, up, and right by 5 units.
+- **Navigation**:
+  - `h/j/k/l`: Navigate between panes (Vim-style).
+- **Split Panes**:
+  - `|`: Splits window horizontally.
+  - `-`: Splits window vertically.
+- **Maximize Pane**: 
+  - `m`: Toggles pane zoom.
+
+### Refresh Configuration
+- **Reload Config**: 
+  - `r`: Reloads Tmux configuration file.
+
+### Copy Mode
+- **Selection and Copy**:
+  - `v`: Begin text selection.
+  - `y`: Copy selected text.
+
+### Indexing and Directories
+- **Base Index**: Sets pane and window indexing to start at 1.
+- **Open Panes in Current Directory**: (Commented out by default.)
+
+### Plugin Manager
+- **TMUX Plugin Manager (TPM)**: Loads TPM and a set of useful plugins.
+  - **Plugins**:
+    - `vim-tmux-navigator`: Vim-style pane navigation.
+    - `tmux-themepack`: Custom themes.
+    - `tmux-resurrect`: Saves and restores Tmux sessions.
+    - `tmux-continuum`: Autosaves sessions every 15 minutes.
+- **Theme**: Uses `powerline/default/cyan` theme.
+- **Session Persistence**: Enables capturing pane contents and auto-restoring sessions.
+
 
 ## Visual Studio Code
 
