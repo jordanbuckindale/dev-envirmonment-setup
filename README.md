@@ -74,6 +74,65 @@ This configuration file customizes Vim settings to enhance the editing experienc
   - `Ctrl+s`: Move to the beginning of the line.
 
 ## NeoVim
+A collection of essential plugins and settings to enhance your Neovim experience.
+
+### Core Utilities
+- **plenary.nvim**: Utility functions used by other plugins.
+
+### Appearance
+- **folke/tokyonight.nvim**: A tokyonight colorscheme (with some custom color modifications).
+- **nvim-lualine/lualine.nvim**: Enhanced statusline for a better visual experience.
+- **akinsho/bufferline.nvim**: Improved tab display.
+
+### Navigation
+- **christoomey/vim-tmux-navigator**: Seamless navigation between Neovim splits and Tmux panes using `CTRL+h,j,k,l`.
+- **nvim-tree/nvim-tree.lua**: File explorer for navigating files and directories.
+
+### Productivity Tools
+- **folke/which-key.nvim**: Displays keymap suggestions as you type.
+
+### Fuzzy Finder and UI Enhancements
+- **nvim-telescope/telescope.nvim**: Fuzzy finder for searching files, buffers, and more.
+- **nvim-telescope/telescope-fzf-native.nvim**: FZF-native extension for better performance.
+
+### Autocompletion and Snippets
+- **hrsh7th/nvim-cmp**: Main autocompletion plugin.
+  - **hrsh7th/cmp-buffer**: Completion source for text in the current buffer.
+  - **hrsh7th/cmp-path**: Completion source for filesystem paths.
+- **L3MON4D3/LuaSnip**: Snippet engine.
+  - **saadparwaiz1/cmp_luasnip**: Completion source for LuaSnip.
+
+### LSP and Code Intelligence
+- **williamboman/mason.nvim**: Manage and install language servers, linters, and formatters.
+  - **williamboman/mason-lspconfig.nvim**: Bridge between `mason` and `lspconfig`.
+  - **neovim/nvim-lspconfig**: Simplifies LSP server configuration.
+  - **hrsh7th/cmp-nvim-lsp**: Smart autocompletion with LSP integration.
+- **folke/trouble.nvim**: Provides a better interface for diagnostics and other code-related issues.
+
+### Formatting and Linting
+- **stevearc/conform.nvim**: Easy configuration for formatters.
+- **mfussenegger/nvim-lint**: Simple configuration for linters.
+- **WhoIsSethDaniel/mason-tool-installer.nvim**: Automatically installs linters and formatters on startup.
+
+### Comments
+- **folke/todo-comments.nvim**: Highlight and search for comments like TODO, HACK, BUG.
+
+### Treesitter and Syntax Highlighting
+- **nvim-treesitter/nvim-treesitter**: Enhanced syntax highlighting and code navigation.
+- **nvim-treesitter/nvim-treesitter-textobjects**: Additional text objects based on Tree-sitter.
+- **windwp/nvim-autopairs**: Automatically close brackets, parentheses, quotes, etc.
+- **windwp/nvim-ts-autotag**: Automatically close HTML/XML tags.
+  
+### Indentation
+- **lukas-reineke/indent-blankline.nvim**: Display indent guides with Tree-sitter integration.
+
+### Git Integration
+- **lewis6991/gitsigns.nvim**: Shows Git changes and allows interaction with Git hunks.
+- **kdheepak/lazygit.nvim**: Use Lazygit within Neovim.
+
+### Miscellaneous
+- **goolord/alpha-nvim**: Customizable start screen for Neovim.
+- **rmagatti/auto-session**: Automatically save and restore Neovim sessions.
 
 ## Tmux
 Customizes Tmux settings for an enhanced terminal experience.
