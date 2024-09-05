@@ -179,6 +179,22 @@ Customizes Tmux settings for an enhanced terminal experience.
 
 
 ## Visual Studio Code
+This guide provides instructions on how to customize the background of Visual Studio Code using the "Background" extension by Katsute.
+
+### **Prerequisites**
+- **Visual Studio Code**: Ensure you have the latest version installed.
+- **Background Extension**: Install the extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=katsute.background).
+
+### **Installation Steps**
+1. **Install the Extension:**
+   - Open Visual Studio Code.
+   - Go to the Extensions view by pressing `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (Mac).
+   - Search for "Background by Katsute."
+   - Click **Install** to add the extension to your Visual Studio Code.
+2. **Configure the Background:**
+   - Open the command palette with `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac).
+   - Type `>Background: Configuration` and select it to open the settings.
+   - Add your desired configuration options to your settings.
 
 ## Yabai
 This file configures Yabai, a tiling window manager for macOS, with custom keyboard shortcuts to improve window management and productivity.
